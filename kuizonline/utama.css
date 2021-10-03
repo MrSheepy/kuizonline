@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+}
+div{
+    width:100%;
+    height:100%;
+    border:none;
+    
+} 
+
+iframe.header{
+    width: 100%;
+    height: 50px ;
+    border:none;
+    float:left;
+}
+
+iframe.menu{
+    clear:left;
+    float:left;
+    position: relative;
+    border: none;
+    width:170px ;
+    height: calc(100% - 50px);
+    background-image: url();
+}
+iframe.kandungan{
+    float:left;
+    position:relative;
+    border:none;
+    width: calc(100% - 170px);
+    height: calc(100% - 50px);
+}
